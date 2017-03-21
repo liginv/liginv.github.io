@@ -1,0 +1,56 @@
+.container {
+  font-family: "Playfair Display SC", serif;
+  margin: auto;
+  max-width: 662px;
+  padding: 0 20px; }
+
+.main-nav {
+  background: #f4f4f4;
+  padding-top: 23px; }
+  .main-nav nav ul li a {
+    color: #a7a7a7; }
+  .main-nav nav ul li.active a {
+    color: #4d4d4d; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}    
+
+.navigation-toggle {
+  display: none;
+  text-transform: uppercase;
+  position: relative;
+  color: #0f0f0f;
+  background-color: #ffffff;
+}
+.navigation-toggle:after {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  margin-top: -12px;
+  left: 10px;
+  content: "\2630";
+  font-size: 24px;
+  line-height: 1;
+}
+.navigation-toggle.navigation-toggle-black {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+.navigation-toggle.navigation-toggle-show {
+  margin-bottom: 1.65em;
+}
+.navigation-toggle span {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  display: block;
+  padding: 10px 20px 10px 40px;
+}
